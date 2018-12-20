@@ -3,7 +3,7 @@
 #
 
 # The file to save the history in.
-HISTFILE="${ZDOTDIR:-${HOME}}/.zhistory"
+: ${HISTFILE="${ZDOTDIR:-${HOME}}/.zhistory"}
 
 # The maximum number of events stored in the internal history list and in the history file.
 HISTSIZE=10000

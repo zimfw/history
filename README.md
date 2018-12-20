@@ -3,7 +3,13 @@ history
 
 Sets sane history options.
 
-The history is set to be saved in the `${ZDOTDIR:-${HOME}}/.zhistory` file.
+Settings
+--------
+
+By default, the history is set to be saved in `${ZDOTDIR:-${HOME}}/.zhistory`.
+The file path can be customized with:
+
+    HISTFILE=/path/to/.zsh_history
 
 Zsh options
 -----------
